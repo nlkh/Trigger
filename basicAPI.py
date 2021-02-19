@@ -4,15 +4,28 @@ app = Flask(__name__)
 @app.route('/hello', methods=["POST", "GET"])
 def hello() :
     return jsonify({
-        'lastBuild' : 200
-    })
+    "data": {        "id": 9604521,
+        "statusCode": "ACTIVE",
+        "typeCode": 1234,
+        "loginId": "dlrudgud08**@gmail.com",
+        "ownerCode": "J534327",
+        "phone": "010-****-0828",
+        "createdAt": "2021-01-11 16:24:36"},
+    "meta": {
+        "message": "",
+        "code": ""
+    }
+})
 
 @app.route('/hello-second')
 def helloSecond() :
-    return jsonify({
-        'status' : 200,
-        'message' : "success2"
-    })
+    return jsonify({        "id": "9604521",
+        "statusCode": "ACTIVE",
+        "typeCode": "NORMAL",
+        "loginId": "dlrudgud08**@gmail.com",
+        "ownerCode": "J534327",
+        "phone": "010-****-0828",
+        "createdAt": "2021-01-11 16:24:36"})
 
 if __name__ == '__main__' :
-    app.run()
+    app.run(debug=True)
