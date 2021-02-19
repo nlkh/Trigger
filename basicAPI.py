@@ -9,7 +9,7 @@ def hello() :
         "isEasy":true,
         "createdAt": "2021-01-11 16:24:36"},
     "meta": {
-        "message": "",
+        "message": "그만해",
         "code": ""
     }
 })
