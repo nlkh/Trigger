@@ -5,7 +5,6 @@ app = Flask(__name__)
 def hello() :
     return jsonify({
     "data": {        "id": 9604521,
-        "typeCode": 1234,
         "loginId": "dlrudgud08**@gmail.com",
         "ownerCode": "J534327",
         "createdAt": "2021-01-11 16:24:36"},
