@@ -8,7 +8,7 @@ def hello() :
         "ownerCode": "J534327",
         "createdAt": "2021-01-11 16:24:36"},
     "meta": {
-        "message": "이제 좀 돼라 제발~~~",
+        "message": "이제 좀 돼라 제발~~~~",
         "code": ""
     }
 })
