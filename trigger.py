@@ -6,7 +6,6 @@ def hello() :
     return jsonify({
     "data": {        "id": 9604521,
         "ownerCode": "J534327",
-        "isEasy":True,
         "createdAt": "2021-01-11 16:24:36"},
     "meta": {
         "message": "그만해",
